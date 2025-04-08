@@ -19,7 +19,7 @@ body {
 }
 
 #nav {
-    height: 7%;
+    \height: 7%;
     width: 100%;
     background-color: #F5F5F7;
     display: flex;
@@ -67,6 +67,9 @@ a {
     height: calc(100% - 14%);
     background-color: violet;
     /* overflow: hidden; */
+    color: black;
+    text-align: center;
+
 
 }
 
@@ -76,7 +79,21 @@ a {
     object-fit: cover;
     object-position: center;
     padding-right: 0%;
+    z-index: -1;
 
+}
+#text{
+    height:700px;
+    width: 1000px;
+    color: black;
+    text-align: center;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000 !important;
+    position: absolute;
+    top: 50%;
+    left: 15%;
 }
 
 /* height: 50%;
