@@ -99,7 +99,7 @@ a {
     z-index: 1000 !important;
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 20%;
     font-size: 25px;
     padding: 20px;
     border-radius: 100px;
@@ -113,13 +113,3 @@ a {
     cursor: pointer;
     margin-top:15px ;
 }
-/* height: 50%;
-width:50%;
-background-color: black;
-color: pink;
-line-height: 20px;
-text-align: center;
-padding: 2%;
-margin: 5%;
-border: 1px solid;
-background-image: */
