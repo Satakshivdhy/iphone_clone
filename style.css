@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 html,
@@ -15,7 +16,8 @@ body {
     width: 100%;
     padding: 0%;
     background-color: #fff;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 #nav {
@@ -55,15 +57,18 @@ a {
     /* text-align: center; */
 
 }
-#nav2 a{
-    color: #0372E4;    
+
+#nav2 a {
+    color: #0372E4;
 }
-#nav2 a:hover{
+
+#nav2 a:hover {
     text-decoration: underline;
-   
+
 }
 
 #page1 {
+    position: relative;
     width: 100%;
     height: calc(100% - 14%);
     background-color: violet;
@@ -71,7 +76,7 @@ a {
     color: black;
     text-align: center;
     cursor: pointer;
-    background-image:url(https://www.apple.com/v/home/cd/images/heroes/apple-intelligence-geo/hero_ai_geo__f9v31dli57ma_large.jpg);
+    background-image: url(https://www.apple.com/v/home/cd/images/heroes/apple-intelligence-geo/hero_ai_geo__f9v31dli57ma_large.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,8 +93,8 @@ a {
     z-index: -1;
 
 } */
-#text{
-    height:500px;
+#text {
+    height: 500px;
     width: 1000px;
     color: black;
     text-align: center;
@@ -104,12 +109,64 @@ a {
     padding: 20px;
     border-radius: 100px;
 }
-#but{
+
+#but {
     padding: 10px 20px;
     border-radius: 40px;
     background-color: #0372E4;
     border: none;
     color: white;
     cursor: pointer;
-    margin-top:15px ;
+    margin-top: 15px;
+}
+
+#second {
+    background-image: url(https://www.apple.com/v/home/cd/images/heroes/iphone-16-pro/hero_iphone16pro_avail__fnf0f9x70jiy_mediumtall.jpg);
+    height: 70vh;
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+#s1 {
+    margin-top: 5%;
+    text-align: center;
+    /* background-color: red; */
+    border-radius: 100px;
+    font-size: 25px;
+    line-height: 25px;
+
+}
+
+#one {
+    margin: 20px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    background-color: #0372E4;
+    border: none;
+    color: #F5F5F7;
+}
+
+#two {
+    margin: 20px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    background-color: transparent;
+    margin: 20px;
+    padding: 10px 20px;
+    border: 1px solid #0372E4;
+    color: #0372E4;
+    /* border-color: #0372E4; */
+    cursor: pointer; 
+
+#two:hover {
+    color: #F5F5F7;
+    background-color: #0372E4;
 }
