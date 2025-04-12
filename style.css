@@ -123,6 +123,7 @@ a {
     background-size: cover;
     background-position: center;
     position: relative;
+    margin-top: 12px;
 
 }
 
@@ -161,7 +162,7 @@ a {
 }
 #third {
     background-image: url(https://www.apple.com/in/home/heroes/iphone-16/images/hero_iphone16_avail__euwzls69btea_mediumtall.jpg);
-    height: 70vh;
+    height: 90vh;
     width: 100vw;
     color: #fff;
     display: flex;
@@ -171,7 +172,7 @@ a {
     background-size: cover;
     background-position: center;
     position: relative;
-
+    margin-top: 12px;
 }
 #s2 {
     margin-top: 4%;
@@ -217,4 +218,67 @@ a {
 #inner_nav a:hover::after{
     width: 100%;
 
+}
+#fourth{
+    height: 80vh;
+    width: 100vw;
+    background-color: pink;
+    margin-top: 12px;
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#four1{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://www.apple.com/v/home/cd/images/promos/apple-watch-series-10/promo_apple_watch_series_10_avail__b9etp10v9tn6_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3.5%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 18px;
+}
+
+#four2{
+    height: 100%;
+    width: 50%;
+    left: 50%;
+    background-image: url(https://www.apple.com/v/home/cd/images/promos/macbook-air/promo_macbook_air_avail__e8ksaudoisey_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3.5%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 18px;
+}
+#five,#seven {
+    margin: 15px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    background-color: #0372E4;
+    border: none;
+    color: #F5F5F7;
+}
+
+#six,#eight {
+    margin: 15px;
+    border-radius: 100px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #0372E4;
+    color: #0372E4;
+    /* border-color: #0372E4; */
+    cursor: pointer;
+} 
+#six:hover {
+    color: #F5F5F7;
+    background-color: #0372E4;
+}
+#eight:hover{
+    color: #F5F5F7;
+    background-color: #0372E4;
 }
