@@ -220,19 +220,19 @@ a {
 
 }
 #fourth{
-    height: 80vh;
+    height: 75vh;
     width: 100vw;
-    background-color: pink;
+    background-color: #FFFFFF;
     margin-top: 12px;
     position: relative;
     display: flex;
-    /* justify-content: center; */
+    justify-content: space-evenly;
     align-items: center;
 }
 #four1{
     height: 100%;
-    width: 50%;
-    background-image: url(https://www.apple.com/v/home/cd/images/promos/apple-watch-series-10/promo_apple_watch_series_10_avail__b9etp10v9tn6_medium.jpg);
+    width: 48%;
+    background-image: url(https://www.apple.com/v/home/cd/images/promos/apple-watch-series-10/promo_apple_watch_series_10_avail__b9etp10v9tn6_large.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -245,7 +245,7 @@ a {
 #four2{
     height: 100%;
     width: 50%;
-    left: 50%;
+    left: 52%;
     background-image: url(https://www.apple.com/v/home/cd/images/promos/macbook-air/promo_macbook_air_avail__e8ksaudoisey_medium.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -282,3 +282,125 @@ a {
     color: #F5F5F7;
     background-color: #0372E4;
 }
+#intelligent_apple{
+    
+    background-color:transparent;
+    height: 3%;
+    width: 25%;
+    position: absolute;
+    left: 62.5%;
+    bottom: 3%;
+    z-index: 10;
+
+}
+#intelligent_apple img{
+    height: 100%;
+}
+
+#fifth{
+    height: 75vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+    margin-top: 12px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#five1{
+    height: 100%;
+    width: 48%;
+    background-image: url(https://www.apple.com/v/home/cd/images/promos/ipad-air/promo_ipad_air__bfbxzvw65c02_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3.5%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 18px;
+    position: relative;
+}
+
+#five2{
+    height: 100%;
+    width: 50%;
+    left: 52%;
+    background-image: url(https://www.apple.com/v/home/cd/images/promos/mac-studio/promo_macstudio_avail__byhwkp0o4gty_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3.5%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 18px;
+}
+#aple{
+    position: relative;
+    background-color:transparent;
+    height: 3%;
+    width: 25%;
+    
+    left: 35%;
+    top: 70%;
+    z-index: 10;
+
+}
+#aple  img{
+    height: 100%;
+}
+
+#sixth{
+    height: 70vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+    margin-top: 12px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#six1{
+    height: 100%;
+    width: 48%;
+    background-image: url(https://www.apple.com/in/home/promos/ipad-pro/images/promo_ipadpro_avail__s271j89g8kii_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3.5%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 18px;
+    position: relative;
+    color: #F5F5F7;
+}
+
+#six2{
+    height: 100%;
+    width: 50%;
+    left: 52%;
+    background-image: url(https://www.apple.com/v/home/cd/images/promos/macbook-pro/promo_macbookpro_announce__gdf98j6tj2ie_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3.5%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 18px;
+    color: #F7F7F9;
+}
+/* #six1 intelligent_apple{
+
+    background-color:transparent;
+    height: 3%;
+    width: 25%;
+    
+    left: 25%;
+    bottom: 3%;
+    z-index: 10;
+
+}
+#intelligent_apple img{
+    height: 100%;
+} */
