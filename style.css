@@ -340,9 +340,8 @@ a {
     background-color:transparent;
     height: 3%;
     width: 25%;
-    
     left: 35%;
-    top: 70%;
+    top: 65%;
     z-index: 10;
 
 }
@@ -351,7 +350,7 @@ a {
 }
 
 #sixth{
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
     background-color: #FFFFFF;
     margin-top: 12px;
@@ -390,17 +389,17 @@ a {
     line-height: 18px;
     color: #F7F7F9;
 }
-/* #six1 intelligent_apple{
-
-    background-color:transparent;
-    height: 3%;
-    width: 25%;
+#six2 intelligent_apple{
     
-    left: 25%;
-    bottom: 3%;
+    position: relative;
+    background-color:transparent;
+    height: 2%;
+    width: 25%;
+    left: 35%;
+    top: 90%;
     z-index: 10;
 
 }
-#intelligent_apple img{
-    height: 100%;
-} */
+#six2 intelligent_apple img{
+    height: 90%;
+}
